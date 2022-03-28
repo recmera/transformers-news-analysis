@@ -1,11 +1,11 @@
-nombre-diario,region,comuna,url
-LA TERCERA,RM Región Metropolitana,Santiago Ch.,www.latercera.com
+nombre-diario,region,comuna,url,estado
+LA TERCERA,RM Región Metropolitana,Santiago Ch.,www.latercera.com,✅
 EL MERCURIO,RM Región Metropolitana,Santiago Ch.,www.emol.com
 LAS ÚLTIMAS NOTICIAS,RM Región Metropolitana,Santiago Ch.,www.lun.com
-LA CUARTA,RM Región Metropolitana,Santiago Ch.,www.lacuarta.com
+LA CUARTA,RM Región Metropolitana,Santiago Ch.,www.lacuarta.com,✅
 LA SEGUNDA,RM Región Metropolitana,Santiago Ch.,www.lasegunda.com
-PUBLIMETRO,RM Región Metropolitana,Santiago Ch.,www.publimetro.cl
-LA HORA,RM Región Metropolitana,Santiago Ch.,www.lahora.cl
+PUBLIMETRO,RM Región Metropolitana,Santiago Ch.,www.publimetro.cl,✅
+LA HORA,RM Región Metropolitana,Santiago Ch.,www.lahora.cl,✅
 HOYXHOY,RM Región Metropolitana,Santiago Ch.,www.hoyxhoy.cl
 DIARIO FINANCIERO,RM Región Metropolitana,Santiago Ch.,www.df.cl
 PULSO,RM Región Metropolitana,Santiago Ch.,www.pulso.cl
