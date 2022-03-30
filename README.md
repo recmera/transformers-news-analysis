@@ -4,7 +4,7 @@
 
 El proyecto consiste en generar una herramienta que permita visualizar semanalmente un indicador de bienestar territorial presente en cada una de las regiones de Chile. La herramienta debe arrojar las razones y circunstancias que justifican el valor numérico de dicho indicador.  
 
-El cálculo de este indicador de bienestar se obtendrá mediante un análisis de sentimiento de los distintos medios de prensa escrita de la región (diarios, revistas) y redes sociales (Twitter), utilizando técnicas de procesamiento del lenguaje.   
+El cálculo de este indicador de bienestar se obtendrá mediante un análisis de sentimiento de los distintos medios de prensa escrita de cada región (diarios, revistas) y redes sociales (Twitter), utilizando técnicas de procesamiento del lenguaje.   
                                                                                 
 ### Motivación:
  
