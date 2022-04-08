@@ -1,4 +1,8 @@
+<!-- #region -->
 # Análisis de sentimiento e indicador de bienestar territorial para las regiones de Chile
+
+### Tabla de contenidos
+
 
 ### Resumen:
 
@@ -15,5 +19,16 @@ Analizando estos, podemos extraer las razones o circunstancias que afectan a las
 
 En conclusión, la herramienta busca servir de apoyo en pos de un mejor entendimiento de la sociedad chilena y en el objeto de diseñar soluciones que respondan a sus problemáticas.     
 
+### Pipeline del proyecto
+
+#### 1. Diarios de chile
+#### 2. Adquisición de datos
+#### 3. Extracción y limpieza de textos
+#### 4. Pre-procesamiento
+#### 5. Extracción de características
+#### 6. Modelamiento de la arquitectura
+#### 7. Métricas de evaluación
+#### 8. Despliegue del proyecto
 
 
+<!-- #endregion -->
