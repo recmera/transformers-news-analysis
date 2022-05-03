@@ -1,6 +1,6 @@
-nombre-diario,region,comuna,url,estado
-LA TERCERA,RM Región Metropolitana,Santiago Ch.,www.latercera.com,✅
-EL MERCURIO,RM Región Metropolitana,Santiago Ch.,www.emol.com
+nombre-diario,region,comuna,url,se puede extraer?,inserto en caleuche?
+LA TERCERA,RM Región Metropolitana,Santiago Ch.,www.latercera.com,✅,✅
+EL MERCURIO,RM Región Metropolitana,Santiago Ch.,www.emol.com,✅,✅
 LAS ÚLTIMAS NOTICIAS,RM Región Metropolitana,Santiago Ch.,www.lun.com
 LA CUARTA,RM Región Metropolitana,Santiago Ch.,www.lacuarta.com,✅
 LA SEGUNDA,RM Región Metropolitana,Santiago Ch.,www.lasegunda.com
@@ -10,14 +10,14 @@ HOYXHOY,RM Región Metropolitana,Santiago Ch.,www.hoyxhoy.cl
 DIARIO FINANCIERO,RM Región Metropolitana,Santiago Ch.,www.df.cl,✅
 PULSO,RM Región Metropolitana,Santiago Ch.,www.pulso.cl,✅
 MEGANOTICIAS,RM Región Metropolitana,Santiago Ch.,www.meganoticias.cl,✅
-EL MOSTRADOR,RM Región Metropolitana,Santiago Ch.,www.elmostrador.cl,✅
+EL MOSTRADOR,RM Región Metropolitana,Santiago Ch.,www.elmostrador.cl,✅,✅
 LA RAZÓN,RM Región Metropolitana,Santiago Ch.,www.larazon.cl,✅
-LA NACIÓN,RM Región Metropolitana,Santiago Ch.,www.lanacion.cl,✅
+LA NACIÓN,RM Región Metropolitana,Santiago Ch.,www.lanacion.cl,✅,✅
 CRÓNICA DIGITAL,RM Región Metropolitana,Santiago Ch.,www.cronicadigital.cl,✅
 EL DESCONCIERTO,RM Región Metropolitana,Santiago Ch.,www.eldesconcierto.cl,✅
-EL CIUDADANO,RM Región Metropolitana,Santiago Ch.,www.elciudadano.com,✅
-EL DÍNAMO,RM Región Metropolitana,Santiago Ch.,www.eldinamo.com,✅
-THE CLINIC,RM Región Metropolitana,Santiago Ch.,www.theclinic.cl,✅
+EL CIUDADANO,RM Región Metropolitana,Santiago Ch.,www.elciudadano.com,✅,✅
+EL DÍNAMO,RM Región Metropolitana,Santiago Ch.,www.eldinamo.com,✅,✅
+THE CLINIC,RM Región Metropolitana,Santiago Ch.,www.theclinic.cl,✅,✅
 EL PERIODISTA,RM Región Metropolitana,Santiago Ch.,www.elperiodista.cl,✅
 SUR NOTICIAS,RM Región Metropolitana,Santiago Ch.,www.diariosurnoticias.com,✅
 CENTRAL WEB,RM Región Metropolitana,Santiago Ch.,www.centralweb.cl,✅
@@ -25,14 +25,13 @@ CAMBIO 21,RM Región Metropolitana,Santiago Ch.,www.cambio21.cl,✅
 TUS NOTICIAS,RM Región Metropolitana,Santiago Ch.,www.tusnoticias.cl,✅
 LABRADOR,RM Región Metropolitana,Melipilla,www.diariolabrador.cl
 LA ESTRELLA DE IQUIQUE,I Región de Tarapacá,Iquique,www.estrellaiquique.cl
-EL LONGINO,I Región de Tarapacá,Iquique,www.diariolongino.cl,✅
+EL LONGINO,I Región de Tarapacá,Iquique,www.diariolongino.cl,✅,✅
 EL SOL DE IQUIQUE,I Región de Tarapacá,Iquique,www.elsoldeiquique.cl,✅
 EL REPORTERO,I Región de Tarapacá,Iquique,www.elreporterodeiquique.com,✅
 TARAPACÁ ONLINE,I Región de Tarapacá,Iquique,www.tarapacaonline.cl,✅
 EL BOYALDÍA,I Región de Tarapacá,Iquique,www.elboyaldia.cl,✅
 LA KALLE,I Región de Tarapacá,Iquique,www.lakalle.cl
 EL MERCURIO DE ANTOFAGASTA,II Región de Antofagasta,Antofagasta,www.mercurioantofagasta.cl
-LA ESTRELLA DE ANTOFAGASTA,II Región de Antofagasta,Antofagasta,www.estrellaantofagasta.cl
 EL DIARIO DE ANTOFAGASTA,II Región de Antofagasta,Antofagasta,www.diarioantofagasta.cl,✅
 EL NORTERO,II Región de Antofagasta,Antofagasta,www.elnortero.cl
 ANTOFAGASTA NOTICIAS,II Región de Antofagasta,Antofagasta,www.antofagastanoticias.cl,✅
