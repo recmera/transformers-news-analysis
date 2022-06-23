@@ -1,5 +1,8 @@
 .ipynb_checkpoints
 reqs/*
+data/CNN_test.csv
+dataset-loslagos-8months.csv
+message.txt
 
 
 
