@@ -3,6 +3,7 @@ reqs/*
 data/CNN_test.csv
 dataset-loslagos-8months.csv
 message.txt
+data/SBW-vectors-300-min5.bin.gz
 
 
 
