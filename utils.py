@@ -43,6 +43,8 @@ def clean_dataset_basedOn_media(df):
               "radioacogida","elhuemul","radiopudeto","enlanoticia","fresiaahora","elquellonino",
               "segundos33","radioestrelladelmar","soypuertomontt","soyosorno", "soychiloe"]
     df = df[df['media_outlet'].isin(medios)]
+    df = df[df['content'].notna()]
+
     return df
 
 def date_clustering(df):
