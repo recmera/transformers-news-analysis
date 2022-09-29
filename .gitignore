@@ -1,6 +1,6 @@
 __pycache__/
-
 .ipynb_checkpoints
+
 reqs/*
 data/CNN_test.csv
 data/loslagos-comunas.csv
@@ -21,5 +21,12 @@ data/scraping/031-la-kalle.ipynb
 data/scraping/073-los-andes-online.ipynb
 
 # archivos
-03-Data-extraction--notyet.ipynb
 02-preprocesamiento--notyet.ipynb
+03-Data-extraction--notyet.ipynb
+03-GridSearchCV-Classification.ipynb
+04-LDA.pynb
+04-Hierarchical-LDA.ipynb
+06-Text-analysis-networks.ipynb
+
+04-LDA.ipynb
+04-LDA.ipynb
