@@ -3,10 +3,11 @@ __pycache__/
 .ipynb_checkpoints
 reqs/*
 data/CNN_test.csv
+data/loslagos-comunas.csv
 dataset-loslagos-8months.csv
 message.txt
 data/SBW-vectors-300-min5.bin.gz
-
+2021-10-bertopic.csv
 
 
 # diarios
