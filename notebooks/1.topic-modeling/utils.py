@@ -19,7 +19,8 @@ from nltk.tokenize import word_tokenize
 # Funciones útiles
 def remove_stopwords(sentence):
     return " ".join([token for token in nltk.word_tokenize(sentence) 
-                     if token.lower() not in stopwords.words('spanish')])
+                     if token.lower() not in stopwords.words('spanish') and  
+                     len(token) > 2])
 
 def stem_words(text):
     return " ".join([stemmer.stem(word) for word in text.split()])
@@ -31,8 +32,8 @@ def lemmatize_words(text):
 def preprocess(text):
     # transformar caracteres acentuados a no acentuados
     text = unidecode.unidecode(text)
-    # borrar caracteres distintos a los alfanumericos
-    text = re.sub(r'[^A-Za-z0-9 ]+', "", text)
+    # borrar caracteres distintos a los alfabeticos
+    text = re.sub(r'[^A-Za-z ]+', "", text) #^A-Za-z0-9 alfanumericos
     # borrar puntuaciones
     text = re.sub('[%s]' % re.escape(string.punctuation), '', text)
     # borrar palabras comprometidas con numeros
