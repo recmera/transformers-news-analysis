@@ -1,6 +1,6 @@
 __pycache__/
 .ipynb_checkpoints
-
+utils.py
 reqs/*
 data/CNN_test.csv
 data/loslagos-comunas.csv
