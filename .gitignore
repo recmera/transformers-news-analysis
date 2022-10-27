@@ -32,3 +32,4 @@ data/scraping/073-los-andes-online.ipynb
 04-LDA.ipynb
 data/topics.csv
 data/bertopic.csv
+out/save1
