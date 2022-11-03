@@ -19,6 +19,7 @@ notebooks/1.topic-modeling/04-ETM-LDA2Vec.ipynb
 notebooks/1.topic-modeling/04-tomotopy.ipynb
 04-LDA.ipynb
 04-LDA.ipynb
+notebooks/3.sentiment-analysis/05-MBART-Transl-ES-EN-SentimentAnalysis .ipynb
 
 # outputs
 out/save1
