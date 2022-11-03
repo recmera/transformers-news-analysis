@@ -1,15 +1,3 @@
-__pycache__/
-.ipynb_checkpoints
-utils.py
-reqs/*
-data/CNN_test.csv
-data/loslagos-comunas.csv
-dataset-loslagos-8months.csv
-message.txt
-data/SBW-vectors-300-min5.bin.gz
-2021-10-bertopic.csv
-
-
 # diarios
 data/scraping/001-elmercurio.ipynb
 data/scraping/002-lun.ipynb
@@ -20,16 +8,31 @@ data/scraping/025-estrellaiquique.ipynb
 data/scraping/031-la-kalle.ipynb
 data/scraping/073-los-andes-online.ipynb
 
-# archivos
+# notebooks
 02-preprocesamiento--notyet.ipynb
 03-Data-extraction--notyet.ipynb
 03-GridSearchCV-Classification.ipynb
 04-LDA.pynb
 04-Hierarchical-LDA.ipynb
 06-Text-analysis-networks.ipynb
+notebooks/1.topic-modeling/04-ETM-LDA2Vec.ipynb
+notebooks/1.topic-modeling/04-tomotopy.ipynb
+04-LDA.ipynb
+04-LDA.ipynb
 
-04-LDA.ipynb
-04-LDA.ipynb
+# outputs
+out/save1
+
+# files
+__pycache__/
+.ipynb_checkpoints
+utils.py
+reqs/*
+data/CNN_test.csv
+data/loslagos-comunas.csv
+dataset-loslagos-8months.csv
+data/SBW-vectors-300-min5.bin.gz
+2021-10-bertopic.csv
 data/topics.csv
 data/bertopic.csv
-out/save1
+message.txt
