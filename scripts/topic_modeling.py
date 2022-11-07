@@ -1,9 +1,11 @@
-import spacy
-
 from bertopic import BERTopic
 from sklearn.feature_extraction.text import CountVectorizer
 from umap import UMAP
 from hdbscan import HDBSCAN
+
+
+
+# this script needs to become a class if we want to use different hyperparameters to test coherence in multiple models
 
 
 def model_definition(nlp):
