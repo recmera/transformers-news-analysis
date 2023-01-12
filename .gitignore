@@ -37,3 +37,5 @@ data/SBW-vectors-300-min5.bin.gz
 data/topics.csv
 data/bertopic.csv
 message.txt
+data/noticias_etiquetadas.csv
+data/clusters.csv
