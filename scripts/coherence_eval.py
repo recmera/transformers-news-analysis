@@ -2,7 +2,7 @@ import pandas as pd
 import gensim.corpora as corpora
 from gensim.models.coherencemodel import CoherenceModel
 
-def cv_umass_npmi(docs, topics, topic_model):
+def umass_npmi(docs, topics, topic_model):
 
     # Preprocess Documents
     documents = pd.DataFrame({"Document": docs,
@@ -23,11 +23,11 @@ def cv_umass_npmi(docs, topics, topic_model):
     topic_words = [[words for words, _ in topic_model.get_topic(topic)] 
                    for topic in range(len(set(topics))-1)]
     # Evaluate
-    cv_coherence_model = CoherenceModel(topics=topic_words, 
-                                        texts=tokens, 
-                                        corpus=corpus,
-                                        dictionary=dictionary, 
-                                        coherence='c_v')
+    #cv_coherence_model = CoherenceModel(topics=topic_words, 
+    #                                    texts=tokens, 
+    #                                    corpus=corpus,
+    #                                    dictionary=dictionary, 
+    #                                    coherence='c_v')
 
     umass_coherence_model = CoherenceModel(topics=topic_words, 
                                            texts=tokens, 
@@ -41,8 +41,8 @@ def cv_umass_npmi(docs, topics, topic_model):
                                             dictionary=dictionary, 
                                             coherence='c_npmi')
 
-    cv_coherence = cv_coherence_model.get_coherence()
+    #cv_coherence = cv_coherence_model.get_coherence()
     umass_coherence = umass_coherence_model.get_coherence()
     c_npmi_coherence = c_npmi_coherence_model.get_coherence()
 
-    return cv_coherence, umass_coherence, c_npmi_coherence
+    return umass_coherence, c_npmi_coherence

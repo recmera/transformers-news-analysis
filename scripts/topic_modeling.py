@@ -28,6 +28,7 @@ def model_definition(nlp):
                            top_n_words=15,
                            diversity=0.2, 
                            embedding_model=nlp,
+                           language="multilingual", 
                            vectorizer_model=vectorizer_model,
                            umap_model=umap_model,
                            hdbscan_model=hdbscan_model,
