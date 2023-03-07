@@ -17,7 +17,7 @@ def sentiment_analysis(df, sentiment_analyzer, nlp):
     for index, row in tqdm(df.iterrows(), desc='df rows - sentiment', total=df.shape[0]):
         # análisis del título de la noticia
         df.at[index, "title_sentiment_roBERTuito"] = list(sentiment_analyzer.predict(row['title']).probas.keys())[0]
-        df.at[index, 'title_sentiment_BETO'] = nlp(row['title']).get('label')
+        df.at[index, 'title_sentiment_BETO'] = nlp(row['title'])[0].get('label')
 
         # análisis del cuerpo de la noticia
         count_neutral = 0
