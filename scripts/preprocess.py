@@ -45,8 +45,8 @@ def preprocess(text):
 def find_cities(text):
     cities = [
         "ancud", "castro", "chonchi", "curaco de velez", "dalcahue", 
-        "puqueldon", "queilen", "quemchi", "quellon", "quinchao"
-        "calbuco", "cochamo", "fresia", "frutillar", "llanquihue"
+        "puqueldon", "queilen", "quemchi", "quellon", "quinchao",
+        "calbuco", "cochamo", "fresia", "frutillar", "llanquihue",
         "los muermos", "maullin", "puerto montt", "puerto varas", "osorno",
         "puerto octay", "purranque", "puyehue", "rio negro", "san juan de la costa",
         "san pablo", "chaiten", "futaleufu", "hualaihue", "palena"]
